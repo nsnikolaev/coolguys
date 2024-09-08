@@ -1,0 +1,46 @@
+h2 {
+  display: table-cell;
+  vertical-align: bottom;
+  font-family: $font-medium;
+  font-weight: bold;
+}
+h3 {
+  font-family: $font-medium;
+  font-weight: normal;
+}
+
+.viewport-PHONE {
+  h2 {
+    font-size: 54px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+}
+
+.viewport-SMARTPHONE {
+  h2 {
+    font-size: 54px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+}
+
+.viewport-TABLED {
+  h2 {
+    font-size: 5vw;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+}
+
+.viewport-DESKTOP {
+  h2 {
+    font-size: 5vw;
+  }
+  h3 {
+    font-size: 3vw;
+  }
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'PP Neue Montreal Medium';
+  src: url('@/public/fonts/ppneuemontreal-medium.woff')
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Bold';
+  src: url('@/public/fonts/ppneuemontreal-bold.woff');
+}
+
+$font-medium: 'PP Neue Montreal Medium', sans-serif;
+$font-bold: 'PP Neue Montreal Bold', sans-serif;
+
+* { text-transform: uppercase; }
+p {
+  line-height: 1.4;
+  text-transform: none;
+}
+h2 {
+  display: block;
+}
+
+.center { text-align: center; }
+.bold { font-family: $font-bold; }
+
+.f-24 { font-size: 24px; }
+
+.viewport-PHONE {
+  p { font-size: 24px; }
+}
+.viewport-SMARTPHONE {
+  p { font-size: 32px; }
+}
+.viewport-TABLED {
+  p { font-size: 32px; }
+}
+.viewport-DESKTOP {
+  p { font-size: 1.8vw; }
+}

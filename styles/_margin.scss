@@ -1,0 +1,46 @@
+.mx-16 { margin-left: 16px; margin-right: 16px; }
+.my-20 { margin-top: 20px; margin-bottom: 20px; }
+.my-102 { margin-top: 102px; margin-bottom: 102px; }
+.ml-32 { margin-left: 32px; }
+.mt-20 { margin-top: 20px; }
+.mt-32 { margin-top: 32px; }
+.mt-90 { margin-top: 90px; }
+.mt-102 { margin-top: 102px; }
+.mb-44 { margin-bottom: 44px; }
+.mb-102 { margin-bottom: 102px; }
+
+.px-4 { padding-left: 4px; padding-right: 4px; }
+.px-16 { padding-left: 16px; padding-right: 16px; }
+.px-24 { padding-left: 24px; padding-right: 24px; }
+.px-40 { padding-left: 40px; padding-right: 40px; }
+.px-44 { padding-left: 44px; padding-right: 44px; }
+.py-20 { padding-top: 20px; padding-bottom: 20px; }
+.py-40 { padding-top: 40px; padding-bottom: 40px; }
+.pl-32 { padding-left: 32px; }
+.pt-40 { padding-top: 40px; }
+.pt-90 { padding-top: 90px; }
+.pt-102 { padding-top: 102px; }
+.pb-40 { padding-bottom: 40px; }
+.pb-44 { padding-bottom: 44px; }
+.pb-102 { padding-bottom: 102px; }
+
+.viewport-PHONE {
+  .wrap-x { padding-left: 16px; padding-right: 16px; }
+  .wrap-y { padding-top: 20px; padding-bottom: 20px; }
+  .wrap-full { margin-left: -16px; margin-right: -16px; }
+}
+.viewport-SMARTPHONE {
+  .wrap-x { padding-left: 20px; padding-right: 20px; }
+  .wrap-y { padding-top: 20px; padding-bottom: 20px; }
+  .wrap-full { margin-left: -20px; margin-right: -20px; }
+}
+.viewport-TABLED {
+  .wrap-x { padding-left: 40px; padding-right: 40px; }
+  .wrap-y { padding-top: 102px; padding-bottom: 20px; }
+  .wrap-full { margin-left: -40px; margin-right: -40px; }
+}
+.viewport-DESKTOP {
+  .wrap-x { padding-left: 44px; padding-right: 44px; }
+  .wrap-y { padding-top: 102px; padding-bottom: 20px; }
+  .wrap-full { margin-left: -44px; margin-right: -44px; }
+}

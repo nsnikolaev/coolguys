@@ -1,0 +1,23 @@
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-brand: #85FF00;
+$color-grey-light: #DEDEDE;
+$color-grey-light-50: rgba($color-grey-light, 0.5);
+$color-grey-dark: #E2E2E2;
+$color-grey-dark-50: rgba($color-grey-dark, 0.5);
+
+.text-white { color: $color-white; }
+.text-black { color: $color-black; }
+.text-brand { color: $color-brand; }
+.text-grey-light { color: $color-grey-light; }
+.text-grey-light-50 { color: $color-grey-light-50; }
+.text-grey-dark { color: $color-grey-dark; }
+.text-grey-dark-50 { color: $color-grey-dark-50; }
+
+.bg-white { background-color: $color-white; }
+.bg-black { background-color: $color-black; }
+.bg-brand { background-color: $color-brand; }
+.bg-grey-light { background-color: $color-grey-light; }
+.bg-grey-light-50 { background-color: $color-grey-light-50; }
+.bg-grey-dark { background-color: $color-grey-dark; }
+.bg-grey-dark-50 { background-color: $color-grey-dark-50; }
